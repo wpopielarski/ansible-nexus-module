@@ -1,0 +1,5 @@
+(tesco-ansible) ➜  ansible-nexus-module git:(main) ✗ curl -u <user>:<password> -X GET "https://nexus.ourtesco.com/service/rest/v1/search/assets?repository=101-tap-data-snapshot&maven.groupId=com.tesco.data.afp&maven.artifactId=afp-ingest-denver&maven.extension=jar&maven.baseVersion=0.5.60-SNAPSHOT"
+
+(tesco-ansible) ➜  ansible-nexus-module git:(main) ✗ curl -u <user>:<password> -X GET "https://nexus.ourtesco.com/service/rest/v1/search/assets?sort=version&direction=desc&repository=101-tap-data-snapshot&maven.groupId=com.tesco.data.afp&maven.artifactId=afp-ingest-denver&maven.extension=jar&maven.baseVersion=0.5.60-SNAPSHOT&maven.classifier=all"
+
+(tesco-ansible) ➜  ansible-nexus-module git:(main) ✗ curl -u <user>:<password> -X GET "https://nexus.ourtesco.com/service/rest/v1/search/assets?sort=version&direction=desc&repository=101-tap-data-snapshot&maven.groupId=com.tesco.data.afp&maven.artifactId=afp-ingest-denver&maven.extension=jar&maven.baseVersion=0.5.60-SNAPSHOT"
