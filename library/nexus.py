@@ -197,11 +197,10 @@ class NexusAdapter():
         search_params = {
             'sort': 'version',
             'repository': self.parm_hash.repository,
-            'group': self.parm_hash.artifact.groupID,
-            'name': self.parm_hash.artifact.ID,
-            'version': self.parm_hash.artifact.version,
+            'maven.groupId': self.parm_hash.artifact.groupID,
+            'maven.artifactId': self.parm_hash.artifact.ID,
+            'maven.baseVersion': self.parm_hash.artifact.version,
             'maven.extension': self.parm_hash.artifact.format,
-            'maven.classifier': None
         }
 
         try:
